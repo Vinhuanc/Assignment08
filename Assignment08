@@ -19,6 +19,9 @@ Enter an integer value: 8
 Enter an integer value: 9
 Enter an integer value: 10
 The largest value entered is 10 The smallest value entered is 1 Press any key to continue . . .
+
+
+
 Program #2
 Write a program that lets the user enter the total rainfall for each of 12 months into an array of doubles. The program should calculate and display the total rainfall for the year, the average monthly rainfall, and the months with the highest and lowest amounts. Do not accept negative numbers for monthly rainfall figures.
 • Use an array of doubles
@@ -48,6 +51,7 @@ The average rainfall for the year is 2.00 inches.
 The largest amount of rainfall was 3.00 inches.
 The smallest amount of rainfall was 1.00 inches.
 Press any key to continue . . .
+
 
 Program #3
 Write a program that asks the user for the hours worked and pay rate for a predefined set of employee id numbers. After collecting this information, the program will calculate the wages for each employee and display the results in a table format. Your program will utilize 4 parallel arrays in order to achieve its goals:
