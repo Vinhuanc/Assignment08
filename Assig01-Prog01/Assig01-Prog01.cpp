@@ -1,6 +1,6 @@
 //Huan Chen Assignment01-Program01
 #include<iostream>
-
+#include<string>
 using namespace std;
 
 int i, highest, lowest;
