@@ -1,0 +1,86 @@
+Computer Science 1081 – Assignment #08
+Program #1
+Write a program that lets the user enter 10 values into an array. The program should then display the largest and smallest values stored in the array.
+• Values should be stored in an array
+• Do not find the highest and lowest as the user enters data, instead find the highest and
+lowest values after all 10 values are entered by the user.
+• Consider using a function to get the input from the user (to make your main function
+easier to read) Sample Output:
+This program will ask you to
+enter ten values, then it will determine the largest and smallest of the values you entered.
+Enter an integer value: 1
+Enter an integer value: 2
+Enter an integer value: 3
+Enter an integer value: 4
+Enter an integer value: 5
+Enter an integer value: 6
+Enter an integer value: 7
+Enter an integer value: 8
+Enter an integer value: 9
+Enter an integer value: 10
+The largest value entered is 10 The smallest value entered is 1 Press any key to continue . . .
+Program #2
+Write a program that lets the user enter the total rainfall for each of 12 months into an array of doubles. The program should calculate and display the total rainfall for the year, the average monthly rainfall, and the months with the highest and lowest amounts. Do not accept negative numbers for monthly rainfall figures.
+• Use an array of doubles
+• Display values to 2 decimal places
+• Input validation not required (but make sure you accept doubles)
+• Do not do calculations for the ending analysis until all of the data has been entered.
+• Use functions to perform the various analysis on the array
+o Pass the array, and its size as parameters
+o Return the calculated result
+o This will help make your program modular, and easier to read.
+o Use the following names: getTotal, getAverage, getLargest, getSmallest
+Sample Output:
+Enter the rainfall (in inches) for month #1: 1
+Enter the rainfall (in inches) for month #2: 2
+Enter the rainfall (in inches) for month #3: 3
+Enter the rainfall (in inches) for month #4: 1
+Enter the rainfall (in inches) for month #5: 2
+Enter the rainfall (in inches) for month #6: 3
+Enter the rainfall (in inches) for month #7: 1
+Enter the rainfall (in inches) for month #8: 2
+Enter the rainfall (in inches) for month #9: 3
+Enter the rainfall (in inches) for month #10: 1
+Enter the rainfall (in inches) for month #11: 2
+Enter the rainfall (in inches) for month #12: 3
+The total rainfall for the year is 24.00 inches.
+The average rainfall for the year is 2.00 inches.
+The largest amount of rainfall was 3.00 inches.
+The smallest amount of rainfall was 1.00 inches.
+Press any key to continue . . .
+
+Program #3
+Write a program that asks the user for the hours worked and pay rate for a predefined set of employee id numbers. After collecting this information, the program will calculate the wages for each employee and display the results in a table format. Your program will utilize 4 parallel arrays in order to achieve its goals:
+• empId: an array of long integers to hold the employee’s id number. Will be initialized with { 5658845, 4520125, 7895122, 8451277, 1302850, 7580489 }
+• hours: an array of integers to hold the number of hours worked by each employee
+• payRate: an array of real numbers to hold the pay rate for each employee
+• wages: an array of real numbers to hold the calculated wages for each employee
+
+Sample Outputs:
+Enter the requested information for each employee Employee #5658845
+Hours worked: 24
+Pay Rate: $12.54
+Employee #4520125
+Hours worked: 40
+Pay Rate: $13.7
+Employee #7895122
+Hours worked: 37
+Pay Rate: $16.84
+Employee #8451277
+Hours worked: 40
+Pay Rate: $17.50
+Employee #1302850
+Hours worked: 35
+Pay Rate: $22.45
+Employee #7580489
+Hours worked: 37
+Pay Rate: $17.32 ---------------------------------
+Employee Wages
+---------------------------------
+Employee #5658845 $ 300.96
+Employee #4520125 $ 548.00
+Employee #7895122 $ 623.08
+Employee #8451277 $ 700.00
+Employee #1302850 $ 785.75
+Employee #7580489 $ 640.84
+Press any key to continue . . .
