@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36E016C228F8FAB200CE9117 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36E016C128F8FAB200CE9117 /* main.cpp */; };
+		36E016C228F8FAB200CE9117 /* Assig01-Prog01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36E016C128F8FAB200CE9117 /* Assig01-Prog01.cpp */; };
+		36E016CF28F8FDB900CE9117 /* Assig08-Prog02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36E016CE28F8FDB900CE9117 /* Assig08-Prog02.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,15 +21,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		36E016CA28F8FDB900CE9117 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		36E016BE28F8FAB200CE9117 /* Assignment08 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment08; sourceTree = BUILT_PRODUCTS_DIR; };
-		36E016C128F8FAB200CE9117 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		36E016C128F8FAB200CE9117 /* Assig01-Prog01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assig01-Prog01.cpp"; sourceTree = "<group>"; };
+		36E016CC28F8FDB900CE9117 /* Assig08-Prog02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assig08-Prog02"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E016CE28F8FDB900CE9117 /* Assig08-Prog02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assig08-Prog02.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		36E016BB28F8FAB200CE9117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E016C928F8FDB900CE9117 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +60,8 @@
 		36E016B528F8FAB200CE9117 = {
 			isa = PBXGroup;
 			children = (
-				36E016C028F8FAB200CE9117 /* Assignment08 */,
+				36E016C028F8FAB200CE9117 /* Assig01-Prog01 */,
+				36E016CD28F8FDB900CE9117 /* Assig08-Prog02 */,
 				36E016BF28F8FAB200CE9117 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,16 +70,25 @@
 			isa = PBXGroup;
 			children = (
 				36E016BE28F8FAB200CE9117 /* Assignment08 */,
+				36E016CC28F8FDB900CE9117 /* Assig08-Prog02 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		36E016C028F8FAB200CE9117 /* Assignment08 */ = {
+		36E016C028F8FAB200CE9117 /* Assig01-Prog01 */ = {
 			isa = PBXGroup;
 			children = (
-				36E016C128F8FAB200CE9117 /* main.cpp */,
+				36E016C128F8FAB200CE9117 /* Assig01-Prog01.cpp */,
 			);
-			path = Assignment08;
+			path = "Assig01-Prog01";
+			sourceTree = "<group>";
+		};
+		36E016CD28F8FDB900CE9117 /* Assig08-Prog02 */ = {
+			isa = PBXGroup;
+			children = (
+				36E016CE28F8FDB900CE9117 /* Assig08-Prog02.cpp */,
+			);
+			path = "Assig08-Prog02";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = 36E016BE28F8FAB200CE9117 /* Assignment08 */;
 			productType = "com.apple.product-type.tool";
 		};
+		36E016CB28F8FDB900CE9117 /* Assig08-Prog02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36E016D028F8FDB900CE9117 /* Build configuration list for PBXNativeTarget "Assig08-Prog02" */;
+			buildPhases = (
+				36E016C828F8FDB900CE9117 /* Sources */,
+				36E016C928F8FDB900CE9117 /* Frameworks */,
+				36E016CA28F8FDB900CE9117 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assig08-Prog02";
+			productName = "Assig08-Prog02";
+			productReference = 36E016CC28F8FDB900CE9117 /* Assig08-Prog02 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +138,9 @@
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					36E016BD28F8FAB200CE9117 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					36E016CB28F8FDB900CE9117 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -110,6 +159,7 @@
 			projectRoot = "";
 			targets = (
 				36E016BD28F8FAB200CE9117 /* Assignment08 */,
+				36E016CB28F8FDB900CE9117 /* Assig08-Prog02 */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +169,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36E016C228F8FAB200CE9117 /* main.cpp in Sources */,
+				36E016C228F8FAB200CE9117 /* Assig01-Prog01.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E016C828F8FDB900CE9117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E016CF28F8FDB900CE9117 /* Assig08-Prog02.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +309,22 @@
 			};
 			name = Release;
 		};
+		36E016D128F8FDB900CE9117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36E016D228F8FDB900CE9117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -268,6 +342,15 @@
 			buildConfigurations = (
 				36E016C628F8FAB200CE9117 /* Debug */,
 				36E016C728F8FAB200CE9117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36E016D028F8FDB900CE9117 /* Build configuration list for PBXNativeTarget "Assig08-Prog02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E016D128F8FDB900CE9117 /* Debug */,
+				36E016D228F8FDB900CE9117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
